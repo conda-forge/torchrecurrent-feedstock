@@ -1,5 +1,5 @@
 {% set name = "torchrecurrent" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/torchrecurrent-{{ version }}.tar.gz
-  sha256: f50d3d19800a47ee8f105d899776c62c56b6bc5ca02a4bd3fd812f04ca62b98e
+  sha256: d4fd7ba3bd3072a05ccd8ec3551e6fb383886ba75676d1d36adc69640cea4280
 
 build:
   noarch: python
